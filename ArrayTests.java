@@ -43,6 +43,10 @@ public class ArrayTests {
   
     int[] input3 = {-1, 1};
     assertArrayEquals(new int[] {1, -1}, ArrayExamples.reversed(input3));
+
+    int[] input4 = {22, 21, 20, 19, 18, 17, 16, 15, 14, 13};
+    assertArrayEquals(new int[] {13, 14, 15, 16, 17, 18, 19, 20, 21, 22}, ArrayExamples.reversed(input4));
+
   }
 }
 
